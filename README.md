@@ -2,9 +2,9 @@
 
 Fine-tunes DistilBERT for 3-class sentiment classification (positive /
 negative / neutral) on financial news headlines, then serves it via a
-REST API. Demonstrates transfer learning / fine-tuning workflow — the
+REST API. Demonstrates transfer learning / fine-tuning workflow the
 skill most 2026 AI/ML job listings explicitly call out (PyTorch,
-NLP, model evaluation, GenAI exposure) — rather than just calling an
+NLP, model evaluation, GenAI exposure) rather than just calling an
 external LLM API.
 
 ## Why this project
@@ -48,7 +48,7 @@ uvicorn app.main:app --reload    # serve predictions
 > labeled headlines) so the pipeline is runnable end-to-end without external
 > downloads for the data step. For a resume-grade result, swap in the public
 > `financial_phrasebank` or `twitter-financial-news-sentiment` datasets from
-> Hugging Face Hub — same JSONL schema (`text`, `label`) works directly.
+> Hugging Face Hub same JSONL schema (`text`, `label`) works directly.
 
 ## API Usage
 
