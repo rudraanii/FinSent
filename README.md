@@ -1,4 +1,4 @@
-# FinSent — Fine-Tuned Transformer for Financial News Sentiment
+# FinSent: Fine-Tuned Transformer for Financial News Sentiment
 
 Fine-tunes DistilBERT for 3-class sentiment classification (positive /
 negative / neutral) on financial news headlines, then serves it via a
